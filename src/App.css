@@ -1,0 +1,147 @@
+/* Definindo o estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc; /* Cor de fundo suave */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Contêiner principal */
+.App {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo para os campos de entrada */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50; /* Verde ao focar */
+  outline: none;
+}
+
+/* Estilo para o botão de exportação */
+button {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Estilo para os campos de label */
+label {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+  display: block;
+  text-align: left;
+}
+
+/* Estilo para os campos de disciplina */
+div {
+  margin-bottom: 20px;
+}
+
+/* Mensagens de erro e sucesso */
+p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+p.red {
+  color: red;
+}
+
+p.green {
+  color: green;
+}
+
+/* Estilo para a planilha de notas */
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.boletim {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.boletim p {
+  font-size: 16px;
+}
+
+.boletim strong {
+  color: #333;
+}
+
+/* Adicionando um estilo de borda à parte das notas */
+input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Centralização do conteúdo da página */
+.App {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
